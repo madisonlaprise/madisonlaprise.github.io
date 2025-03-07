@@ -3,12 +3,14 @@
   max-height: 400px !important;
   max-width: 300px !important;
   overflow: hidden;
+  margin: -31px; 
+  margin-left:-7px;
   border-radius: 0 !important;
 }
 
 .profile-pic img {
   width: 100%;
-  height: 100%; /* Make sure the image fills the entire square */
+  height: auto; /* Make sure the image fills the entire square */
   object-fit: cover; /* Ensures the image covers the square without stretching */
 }
 
