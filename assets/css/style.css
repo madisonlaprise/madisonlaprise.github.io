@@ -1,12 +1,8 @@
 .profile-pic {
   position: relative;
-  max-width: 130px;
-  max-height: 130px;
-  width: 130px;  /* Set to a fixed value */
-  height: 130px; /* Set to a fixed value */
+  width: 200px;  /* Set to a fixed value */
+  height: 300px; /* Set to a fixed value */
   overflow: hidden;
-  margin: -31px; 
-  margin-left: -7px;
   border-radius: 0 !important;
 }
 
@@ -348,8 +344,27 @@ h3 {
 }
 
 ## COME BACK MADI ##
-#intro.section 
+/* Teal Background (Intro section) */
+#intro.section {
+  background: #a7ffeb repeat;
+  position: relative;
+  padding: 60px 10px; /* Reduced padding to make it less long */
+}
 
+#intro.section .container {
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  top: 50%; /* Vertically center the content */
+  left: 0;
+  right: 0;
+  transform: translateY(-50%); /* Corrects the centering */
+  text-align: center; /* Centers text within the container */
+}
+
+#intro.section .teal {
+  padding: 0 10px;
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 50%;
