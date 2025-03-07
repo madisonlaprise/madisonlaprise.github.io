@@ -7,6 +7,7 @@
   overflow: hidden;
   margin: -31px; 
   margin-left: -7px;
+  border-radius: 0 !important;
 }
 
 .profile-pic img {
@@ -347,13 +348,11 @@ h3 {
 }
 
 ## COME BACK MADI ##
-#intro.section .teal {
-  padding: 0px;
-}
+#intro.section 
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
-  height: 100%;
+  height: 50%;
   left: 0;
   position: absolute;
   top: 0;
