@@ -1,7 +1,5 @@
 .profile-pic {
   position: relative;
-  width: 200px;  /* Set to a fixed value */
-  height: 300px; /* Set to a fixed value */
   overflow: hidden;
   border-radius: 0 !important;
 }
