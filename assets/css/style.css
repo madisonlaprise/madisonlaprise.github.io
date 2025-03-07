@@ -3,8 +3,8 @@
   max-height: 400px !important;
   max-width: 300px !important;
   overflow: hidden;
-  margin: -31px; 
-  margin-left:-7px;
+  margin: -31px !important; 
+  margin-left:-7px !important;
   border-radius: 0 !important;
 }
 
