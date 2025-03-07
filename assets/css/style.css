@@ -1,23 +1,21 @@
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
-  width: auto;
-  height: auto;
+  max-width: 130px;
+  max-height: 130px;
+  width: 130px;  /* Set to a fixed value */
+  height: 130px; /* Set to a fixed value */
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
   margin: -31px; 
-  margin-left:-7px;
-  border: 0px solid rgba(0, 77, 64, 0.4); 
-  border-radius: 0 !important;
+  margin-left: -7px;
+  border: 6px solid rgba(0, 77, 64, 0.4);
+  /* Remove or modify border-radius */
+  border-radius: 0 !important; /* Ensures no rounding, making it square */
 }
 
 .profile-pic img {
   width: 100%;
-  height: auto;
+  height: 100%; /* Make sure the image fills the entire square */
+  object-fit: cover; /* Ensures the image covers the square without stretching */
 }
 
 .tracker {
@@ -351,9 +349,9 @@ h3 {
   border-bottom: 5px solid #24305e;
 }
 
-## COME BACK MADI
+## COME BACK MADI ##
 #intro.section .teal {
-  padding: 0 5px;
+  padding: 0 1px;
 }
 
 .overlay {
