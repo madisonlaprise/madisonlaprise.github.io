@@ -1,7 +1,7 @@
 .profile-pic {
   position: relative;
-  max-height: 200px !important;
-  max-width: 100px !important;
+  max-height: 400px !important;
+  max-width: 300px !important;
   overflow: hidden;
   border-radius: 0 !important;
 }
@@ -381,7 +381,7 @@ h3 {
 }
 
 .card {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .card .role {
