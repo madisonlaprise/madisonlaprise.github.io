@@ -1,0 +1,703 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Madison Laprise | Data Science</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Madison Laprise Portfolio" />
+  <meta property="og:description" content="Madison Laprise Portfolio" />
+  <meta property="og:url" content="https://madisonlaprise.github.io/" />
+  <meta property="og:site_name" content="Madison Laprise Portfolio" />
+  <meta property="article:publisher" content="https://madisonlaprise.github.io/" />
+  <meta property="og:image" content="https://madisonlaprise.github.io/assets/img/preview.png" />
+  
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+         <img src="/assets/img/pfp.JPG" class="img-responsive profile-pic" alt="avatar">
+
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Madison's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Madison's resume in a new tab" href="https://MadisonLaprise.github.io/assets/resume/Madison_Laprise_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Madison
+        Laprise</a><span class="black-text">Data Science</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Madison's Resume in a new tab"
+          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+  
+ <!-- Main Content-->
+  <main>
+  <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Madison Laprise.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Yale '25, B.S. Cognitive Science -> Data & AI Analyst at Ladders</h5>
+            </div>
+            <div class="social">
+              <a href="http://linkedin.com/in/madison-laprise" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/madisonlaprise/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              <!-- <a href="https://angel.co/u/Madison_Laprise" target="_blank">
+                <button class="icon-btn angellist">
+                  <i class="fa fa-angellist"></i>
+                </button>
+              </a> -->
+
+              <!-- <a href="http://linkedin.com/in/MadisonLaprise" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+
+                  </span>
+              </a> -->
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Data Analyst with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->        
+        <p>
+My professional experiences have allowed me to use machine learning and data analysis techniques in the fields of intelligence, health, and the environment. I'm passionate about leveraging my skills to create social impact, particularly in sustainability, public health, and animal welfare. 
+        </p>
+ 
+        </i>
+  
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+        
+<!-- Ladders -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.theladders.com/" target="_blank"><img alt="Ladders logo"
+                    src="assets/img/ladders_logo.jpeg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.theladders.com/" target="_blank"
+                      class="teal-text hoverline">Ladders, Inc.</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data & AI Analyst</div>
+            <ul>
+              <li>
+                Coming soon!
+              </li>
+          </div>
+          <div class="card-action">
+            <span>July 2025 - Current | New York, New York</span>
+          </div>
+        </div>
+<!-- PRIME -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.prime.research.yale.edu/" target="_blank"><img alt="PRIME logo"
+                    src="/assets/img/prime_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.prime.research.yale.edu/" target="_blank"
+                      class="teal-text hoverline">PRIME Research Clinic</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Research Assistant</div>
+            <ul>
+              <li>
+                Automated patient flowcharts in Power BI, eliminating the need for manual data processing
+              </li>
+              <li>
+                Visualized treatment paths of psychosis patients across 5 clinics
+                </li>
+          </div>
+          <div class="card-action">
+            <span>September 2024 - May 2025 | New Haven, Connecticut</span>
+          </div>
+        </div>
+   
+        <!-- VoxCroft -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.voxcroft.ai/" target="_blank"><img alt="VoxCroft logo"
+                    src="/assets/img/voxcroft_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.voxcroft.ai/" target="_blank"
+                      class="teal-text hoverline">VoxCroft</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Science Intern</div>
+            <ul>
+              <li>
+                Spearheaded team of 5 interns in analyzing 50,000 articles to derive insights for intelligence operations
+              </li>
+              <li>
+               Attained 99% accuracy in a name disambiguation model, reducing data complexity by 55%
+              </li>
+              <li>Built an AI-driven system leveraging Wikidata and OpenAI API to identify and produce detail-rich entity profiles</li>
+              <li>Discovered highly salient features for entity recognition, achieving 79% accuracy in a parametric model</li>
+          </div>
+          <div class="card-action">
+            <span>June 2024 - July 2024 | Cape Town, South Africa</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+  <!-- Thesis -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="thesis" src="/assets/img/thesis_cover.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Psychopathology Network Analysis<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Senior thesis towards B.S. in Cognitive Science
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p style="font-size: smaller;">Study 1: Spearman correlation networks, centrality measures, Louvain community detection.</p>
+                <p style="font-size: smaller;">Study 2: EBICGlasso regularized networks, OLS regression modeling, CLPM, Granger Causality</p>
+                <i style="font-size: 10px;">Python packages: pandas, networkx, matplotlib, pyvis, statsmodels</i>
+                <i style="font-size: 10px;">R libraries: dplyr, ggraph, igraph, qgraph, tidyverse, psych</i>
+
+                <div class="card-action">
+    
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/madisonlaprise/Senior_Thesis"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Epidemiology Project! -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="epidemiology" src="/assets/img/epidemiology_cover.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">CDC Chronic Indicator Analysis<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  An Exploration of Chronic Disease Epidemiology in the U.S.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+            
+              <p style="font-size: smaller;">Interactive U.S. choropleth maps of obesity, depression, and disability prevalence using GeoJSON data</p>
+              <p style="font-size: smaller;">Unsupervised Learning: K-means clustering, Principal Component Analysis (PCA)</p>
+             <p style="font-size: smaller;">Supervised Learning: Linear regression, Random Forest Regressor</p>
+               <i style="font-size: 10px;">Python packages: pandas, geopandas, scikit-learn, matplotlib, seaborn, statsmodels</i>
+
+                <div class="card-action">
+        
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/madisonlaprise/Chronic_Disease_Epidemiology"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+              <!-- Agriculture Project! -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="agriculture" src="/assets/img/farm_cover.jpeg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Changing Landscape of U.S. Agriculture<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Trends in Farmland Use, Farm Size, and Economic Sustainability
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+            
+              <p style="font-size: smaller;">Time-course trends of U.S. agricultural data sourced from USDA </p>
+              <p style="font-size: smaller;"> Graphing total farmland area, average farm size, and the distribution of farms by economic class from
+2000 to 2024 </p>
+               <i style="font-size: 10px;">Python packages: pandas, matplotlib, seaborn</i>
+
+                <div class="card-action">
+        
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/madisonlaprise/Sustainable_Agriculture"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Heart Attack Project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="assets/img/heart_cover.png"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Heart Attack Risk Modeling<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Predicting heart attack risk based on health data
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+      
+            <p style="font-size: smaller;">Supervised ML model achieved 89% accuracy in predicting heart attack based on health characteristics</p>
+            <p style="font-size: smaller;">Classification algorithms: Decision tree, random forest, logistic regression</p>
+            <p style="font-size: smaller;">Hyperparameter tuning (gridsearch)</p>
+            <i style="font-size: 10px;">Python packages: numpy, pandas, scikit-learn, matplotlib, seaborn</i>
+
+
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/madisonlaprise/heart-attack-risk-prediction"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       <!-- User Analytics Project -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="User Analytics" src="/assets/img/User_Analytics_Cover.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Job Board User Analytics<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  User Behavior & Role Trends on a U.S. Professional Platform
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <p style="font-size: smaller;">Role & user segmentation by U.S. state; upgrade behavior analysis; choropleth and bar visualizations.</p>
+                <p style="font-size: smaller;">Feature engineering with time deltas; role categorization; state-level aggregation & indexing.</p>
+                <i style="font-size: 10px;">Python packages: pandas, geopandas, matplotlib, plotly, numpy</i>
+                <div class="card-action">
+    
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/madisonlaprise/User_Analytics"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                    <!-- HTML Report Button -->
+                     <a href="https://rawcdn.githack.com/madisonlaprise/User_Analytics/refs/heads/main/User_Analytics.html" target="_blank" style="
+                    display: inline-block;
+                    font-size: 12px;
+                    padding: 6px 12px;
+                    margin-top: 6px;
+                    background-color: #f2f2f2;
+                    color: #333;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    font-family: sans-serif;
+                      ">
+                      📄 View Full Interactive Report
+                      </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+<!-- Fifth Section: Skills -->
+<section id="skills" class="section scrollspy">
+  <h3 class="page-title white-text teal">Skills</h3>
+  <div class="container">
+    <!-- Languages and Databases -->
+    <div class="card">
+      <div class="card-content">
+        <h4 class="brown-text light">Technical</h4>
+        <div class="row text-center">
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/python_logo.png" class="responsive-img" />Python
+          </div>
+          
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/R_logo.png" class="responsive-img" />R
+          </div> <!-- Properly closed R div -->
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/powerbi_logo.png" class="responsive-img" />PowerBI
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/html5_logo.png" class="responsive-img" />HTML5
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/css_logo.png" class="responsive-img" />CSS
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h4 class="brown-text light">Creative / Other </h4>
+        <div class="row text-center">
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/procreate_logo.jpeg" class="responsive-img" />Procreate
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/canva_logo.png" class="responsive-img" />Canva
+          </div>
+          <div class="col s4 m2">
+            <img alt="" src="/assets/img/wix_logo.png" class="responsive-img" />Wix
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seventh Section: Education -->
+<section id="education" class="section scrollspy">
+  <h3 class="page-title white-text teal">Education</h3>
+  <div class="container">
+    <div class="row">
+      <!-- Education -->
+      <div class="col s12 m6 l6">
+        <div class="card" >
+          <div class="card-content center-align" style="height: 350px;">
+            <img src="assets/img/yale_logo.png" alt="Yale University Logo" style="width: 100px; height: 100px;">
+            <p>
+              <span class="card-title"><a href="https://www.yale.edu/" target="_blank" class="teal-text hoverline">Yale University</a></span>
+            </p>
+            <p class="brown-text">New Haven, Connecticut</p>
+            <p>
+              <p> </p> 
+              <p> </p>
+              <b>Degree: </b>Bachelor of Science in Cognitive Science      
+              <br>
+              <b>GPA: </b>3.77/4.0
+            </p>
+
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 m6 l6">
+        <div class="card" style="height: 350px;">
+          <div class="card-content center-align" style="flex-grow: 1;">
+            <img src="assets/img/ix_logo.jpg" alt="iXperience Logo" style="width: 100px; height: 100px;">
+            <p>
+              <span class="card-title"><a href="https://www.ixperience.co/for-university/bootcamps/data-science" target="_blank" class="teal-text hoverline">iXperience Data Science & AI Bootcamp
+                  </a></span>
+            </p>
+            <p class="brown-text">Cape Town, South Africa</p>
+            <p>
+            </p>
+            <p>
+              <a href="assets/certificates/ix_certificate.pdf" target="_blank" class="btn teal">View Certificate</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Madison" data-position="top" data-tooltip="Call Madison"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Madison">+1 (860) 258-9839</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Madison" href="mailto: madisonlynlaprise@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Madison" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Madison" href="mailto:madisonlynlaprise@gmail.com"
+              class="hoverline">madisonlynlaprise@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Madison on GitHub" href="http://github.com/madison-laprise" target="_blank"
+            data-position="top" data-tooltip="View Madison on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Madison on Github" href="http://github.com/madisonlaprise" class="hoverline"
+              target="_blank">github.com/madisonlaprise</a></a>
+        </p>
+        <p>
+          <a aria-label="View Madison on LinkedIn" href="http://linkedin.com/in/madison-laprise" target="_blank"
+            data-position="top" data-tooltip="View Madison on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Madison on LinkedIn" href="http://linkedin.com/in/madison-laprise"
+              class="hoverline" target="_blank">linkedin.com/in/madison-laprise</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Pythonist", "Data Scientist", "New Connection!"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
